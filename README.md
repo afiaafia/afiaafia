@@ -16,37 +16,3 @@
 
 
 
-# 📊 GitHub Activity
-
-> The graph shows the activity.  
-> The projects show the progress.
-
-<p align="center">
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=afiaafia&show_icons=true&hide_border=true&rank_icon=github" 
-    alt="GitHub Stats" 
-  />
-</p>
-
-<p align="center">
-  <img 
-    src="https://streak-stats.demolab.com?user=afiaafia&hide_border=true" 
-    alt="GitHub Streak" 
-  />
-</p>
-
-<p align="center">
-  <img 
-    src="https://github-readme-activity-graph.vercel.app/graph?username=afiaafia&hide_border=true" 
-    alt="GitHub Activity Graph" 
-  />
-</p>
-
-### 🐍 Contribution Trail
-
-<p align="center">
-  <img 
-    src="https://raw.githubusercontent.com/afiaafia/afiaafia/output/github-contribution-grid-snake.svg" 
-    alt="GitHub contribution snake animation" 
-  />
-</p>
