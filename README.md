@@ -40,7 +40,21 @@
 
 ---
 
-## 📬 Contact
-- GitHub: [afiaafia](https://github.com/afiaafia)
-- Email: your-email@example.com
-- 
+## 🔗 Connect with me
+
+<div>
+  <p align="left">
+    <a href="https://github.com/afiaafia" target="_blank">
+      <img src="https://skillicons.dev/icons?i=github" alt="GitHub" height="30" width="40" />
+    </a>
+    <a href="https://linkedin.com/in/afia-afia" target="_blank">
+      <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="30" width="40" />
+    </a>
+    <a href="https://www.facebook.com/itsafia220" target="_blank">
+      <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="30" width="40" />
+    </a>
+    <a href="https://discord.com/users/1519667284350730344" target="_blank">
+      <img src="https://skillicons.dev/icons?i=discord" alt="Discord" height="30" width="40" />
+    </a>
+  </p>
+</div>
