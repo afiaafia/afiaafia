@@ -1,18 +1,18 @@
-name: Profile Views Counter
+# name: Profile Views Counter
 
-on:
-  schedule:
-    - cron: '0 * * * *'   
-  workflow_dispatch:     
+# on:
+#   schedule:
+#     - cron: '0 * * * *'   
+#   workflow_dispatch:     
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+# jobs:
+#   update:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v2
 
-      - name: Update profile views counter
-        uses: antonkomarev/github-profile-views-counter@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+#       - name: Update profile views counter
+#         uses: antonkomarev/github-profile-views-counter@v1
+#         with:
+#           token: ${{ secrets.GITHUB_TOKEN }}
