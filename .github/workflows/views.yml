@@ -1,18 +1,49 @@
-# name: Profile Views Counter
+name: Ensure Visitor Badge in README
 
-# on:
-#   schedule:
-#     - cron: '0 * * * *'   
-#   workflow_dispatch:     
+on:
+  schedule:
+    - cron: '0 * * * *'   
+  workflow_dispatch:     
+jobs:
+  ensure-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
-# jobs:
-#   update:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Checkout repository
-#         uses: actions/checkout@v2
+      - name: Ensure visitor badge in README
+        env:
+          GITHUB_USER: afiaafia        # <-- এখানে তোমার GitHub username বসাও
+          BADGE_URL: "https://visitor-badge-reloaded.vercel.app/badge?page_id=afiaafia&color=0e75b6&style=for-the-badge&logo=github"
+          BADGE_MARKDOWN: "![Visitor Badge](${BADGE_URL})"
+        run: |
+          README_FILE="README.md"
+          if [ ! -f "$README_FILE" ]; then
+            echo "$README_FILE not found, creating one."
+            echo -e "$BADGE_MARKDOWN\n" > "$README_FILE"
+            git add "$README_FILE"
+            git commit -m "Add README with visitor badge"
+            git push
+            exit 0
+          fi
 
-#       - name: Update profile views counter
-#         uses: antonkomarev/github-profile-views-counter@v1
-#         with:
-#           token: ${{ secrets.GITHUB_TOKEN }}
+          # Check if badge already present
+          if grep -Fq "$BADGE_URL" "$README_FILE"; then
+            echo "Visitor badge already present in $README_FILE. Nothing to do."
+            exit 0
+          fi
+
+          # Prepend badge to README (you can change to append if you prefer)
+          echo "Adding visitor badge to $README_FILE"
+          tmpfile=$(mktemp)
+          echo -e "$BADGE_MARKDOWN\n" > "$tmpfile"
+          cat "$README_FILE" >> "$tmpfile"
+          mv "$tmpfile" "$README_FILE"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$README_FILE"
+          git commit -m "Add visitor-badge-reloaded badge to README"
+          git push
