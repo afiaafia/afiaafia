@@ -45,17 +45,11 @@ I build modern, colorful UIs and polished landing pages using **HTML, CSS, JavaS
 
 ---
 
-## 📊 GitHub Stats  
-
-![Afia's GitHub stats](https://github-readme-stats-afiaafia.vercel.app/api?username=afiaafia&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats-afiaafia.vercel.app/api/top-langs/?username=afiaafia&layout=compact&theme=tokyonight)
-
 ![GitHub Streak](https://streak-stats.demolab.com/?user=afiaafia&theme=tokyonight)
 
 ---
 
-## 🐍 GitHub Contributions:
+## GitHub Contributions:
 
 ![Snake Grid](https://github.com/afiaafia/afiaafia/blob/output/github-contribution-grid-snake.svg)
 
