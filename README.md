@@ -1,23 +1,14 @@
 ![Welcome to my GitHub](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Welcome%20to%20my%20GitHub&fontSize=40&fontAlignY=35&fontColor=ffffff)
 
+## Hi, I'm Afia Mubassira 👋
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=9A1DFF&width=600&lines=Learning+Full+Stack+Web+Development;Exploring+React+%26+Modern+Web+Technologies;Interested+in+AI%2FML)](https://git.io/typing-svg)
+🇧🇩 CSE Student • Learning Web Development
 
-[![About](https://img.shields.io/badge/About-Me-00BFFF?style=for-the-badge&logo=github)]()
+I learn by building, experimenting, and turning ideas
+into clean and functional web experiences.
 
-Hi, I'm **Afia Mubassira** — Learning Front‑End Development from Dhaka, Bangladesh.  
-I build modern, colorful UIs and polished landing pages using **HTML, CSS, JavaScript, React, and Next.js**.
-
-- 🔭 **Current focus:** Next.js projects, component design, and performance optimization  
-- 🧰 **Tech stack:** HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS  
-- 🗄️ **Backend basics:** Node.js, Express, MongoDB (learning full‑stack patterns)  
-- 🛠 **Tools & workflow:** VS Code (Tokyo Night), Git & GitHub, GitHub Actions, Chrome DevTools  
-- 🌱 **Learning:** TypeScript advanced patterns, testing, and deployment best practices  
-
-## Connect
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/afia-afia)  
-[![Email](https://img.shields.io/badge/-Email-cyan?style=flat&logo=gmail&logoColor=white)](mailto:afiastudent461@gmail.com)
+**Tech:** HTML • CSS • JavaScript • TypeScript • React • Next.js  
+**Exploring:** Backend • APIs • Full-Stack Development
 
 ---
 
