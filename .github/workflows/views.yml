@@ -1,9 +1,9 @@
-name: Ensure Visitor Badge in README (GITHUB_TOKEN)
+name: Ensure Visitor Badge in README (PAT)
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *' # run hourly, change if needed
+    - cron: '0 * * * *'
 
 jobs:
   ensure-badge:
@@ -12,34 +12,37 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: true
+          persist-credentials: false
 
       - name: Ensure visitor badge in README
         env:
-          BADGE_URL: "https://visitor-badge-reloaded.vercel.app/badge?page_id=YOUR_USERNAME&color=0e75b6&style=for-the-badge&logo=github"
+          BADGE_URL: "https://visitor-badge-reloaded.vercel.app/badge?page_id=afiaafia&color=0e75b6&style=for-the-badge&logo=github"
           BADGE_MARKDOWN: "![Visitor Badge](${BADGE_URL})"
           README_FILE: "README.md"
         run: |
           if [ ! -f "$README_FILE" ]; then
             echo "$BADGE_MARKDOWN" > "$README_FILE"
+            git init
             git add "$README_FILE"
-            git commit -m "Add README with visitor badge" || echo "commit failed or nothing to commit"
-            git push
-            exit 0
+            git commit -m "Add README with visitor badge"
+          else
+            if grep -Fq "$BADGE_URL" "$README_FILE"; then
+              echo "Badge already present. Nothing to do."
+              exit 0
+            fi
+            tmp=$(mktemp)
+            echo -e "$BADGE_MARKDOWN\n" > "$tmp"
+            cat "$README_FILE" >> "$tmp"
+            mv "$tmp" "$README_FILE"
+            git add "$README_FILE"
+            git commit -m "Add visitor-badge-reloaded badge to README" || echo "nothing to commit"
           fi
 
-          if grep -Fq "$BADGE_URL" "$README_FILE"; then
-            echo "Badge already present. Nothing to do."
-            exit 0
-          fi
-
-          tmp=$(mktemp)
-          echo -e "$BADGE_MARKDOWN\n" > "$tmp"
-          cat "$README_FILE" >> "$tmp"
-          mv "$tmp" "$README_FILE"
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "$README_FILE"
-          git commit -m "Add visitor-badge-reloaded badge to README" || echo "nothing to commit"
-          git push
+      - name: Push changes using PAT
+        env:
+          REPO: ${{ github.repository }}
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          git remote remove origin || true
+          git remote add origin "https://x-access-token:${{ secrets.PAT }}@github.com/${REPO}.git"
+          git push origin HEAD:${BRANCH}
