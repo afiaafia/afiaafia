@@ -2,6 +2,21 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=9A1DFF&width=600&lines=Learning+Full+Stack+Web+Development;Exploring+React+%26+Modern+Web+Technologies;Interested+in+AI%2FML)](https://git.io/typing-svg)
 
+## 👩‍💻 About Me
+
+Hi, I'm **Afia Mubassira** — a Front‑End Developer from Dhaka, Bangladesh.  
+I build modern, colorful UIs and polished landing pages using **HTML, CSS, JavaScript, React, and Next.js**.
+
+- 🔭 **Current focus:** Next.js projects, component design, and performance optimization  
+- 🧰 **Tech stack:** HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS  
+- 🗄️ **Backend basics:** Node.js, Express, MongoDB (learning full‑stack patterns)  
+- 🛠 **Tools & workflow:** VS Code (Tokyo Night), Git & GitHub, GitHub Actions, Chrome DevTools  
+- 🌱 **Learning:** TypeScript advanced patterns, testing, and deployment best practices  
+
+## Connect
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/afia-afia)  
+[![Email](https://img.shields.io/badge/-Email-cyan?style=flat&logo=gmail&logoColor=white)](mailto:afiastudent461@gmail.com)
 
 ---
 
