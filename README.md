@@ -1,5 +1,9 @@
 ![Welcome to my GitHub](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Welcome%20to%20my%20GitHub&fontSize=40&fontAlignY=35&fontColor=ffffff)
 
+<p align="center">
+  <img src="banner.jpg" alt="Afia Mubassira Banner" width="900"/>
+</p>
+
 ## Hi, I'm Afia Mubassira 👋
 
 🇧🇩 CSE Student • Learning Web Development
@@ -36,6 +40,13 @@ into clean and functional web experiences.
 
 ---
 
+## 📂 Projects
+
+- [B14A01-DevConf-2026](https://github.com/afiaafia/B14A01-DevConf-2026)  
+- [restaurant-menu-a](https://github.com/afiaafia/restaurant-menu-a)
+
+---
+## GitHub Streaks:
 ![GitHub Streak](https://streak-stats.demolab.com/?user=afiaafia&theme=tokyonight)
 
 ---
