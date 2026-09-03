@@ -10,7 +10,7 @@
 
 ### 🖥️ Languages
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,javascript,typescript" />
+  <img src="https://skillicons.dev/icons?i=html,css,javascript,typescript,python" />
 </p>
 
 ### ⚛️ Frameworks & Libraries
