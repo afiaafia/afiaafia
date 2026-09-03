@@ -1,4 +1,3 @@
-![Visitor Badge](https://visitor-badge-reloaded.vercel.app/badge?page_id=afiaafia&color=0e75b6&style=for-the-badge&logo=github)
 
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=9A1DFF&width=600&lines=Learning+Full+Stack+Web+Development;Exploring+React+%26+Modern+Web+Technologies;Interested+in+AI%2FML)](https://git.io/typing-svg)
@@ -64,3 +63,10 @@
     </a>
   </p>
 </div>
+
+
+<!-- 📊 Profile Views Counter --> 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=afiaafia&style=flat-square&color=blue" alt="Profile views counter"/>
+</p>
+
