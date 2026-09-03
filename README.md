@@ -2,7 +2,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=9A1DFF&width=600&lines=Learning+Full+Stack+Web+Development;Exploring+React+%26+Modern+Web+Technologies;Interested+in+AI%2FML)](https://git.io/typing-svg)
 
-## 👩‍💻 About Me
+[![About](https://img.shields.io/badge/About-Me-00BFFF?style=for-the-badge&logo=github)]()
 
 Hi, I'm **Afia Mubassira** — a Front‑End Developer from Dhaka, Bangladesh.  
 I build modern, colorful UIs and polished landing pages using **HTML, CSS, JavaScript, React, and Next.js**.
