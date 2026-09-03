@@ -1,9 +1,10 @@
-name: Ensure Visitor Badge in README
+name: Ensure Visitor Badge in README (GITHUB_TOKEN)
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '0 * * * *'   
-  workflow_dispatch:     
+    - cron: '0 * * * *' # run hourly, change if needed
+
 jobs:
   ensure-badge:
     runs-on: ubuntu-latest
@@ -15,35 +16,30 @@ jobs:
 
       - name: Ensure visitor badge in README
         env:
-          GITHUB_USER: afiaafia        # <-- এখানে তোমার GitHub username বসাও
-          BADGE_URL: "https://visitor-badge-reloaded.vercel.app/badge?page_id=afiaafia&color=0e75b6&style=for-the-badge&logo=github"
+          BADGE_URL: "https://visitor-badge-reloaded.vercel.app/badge?page_id=YOUR_USERNAME&color=0e75b6&style=for-the-badge&logo=github"
           BADGE_MARKDOWN: "![Visitor Badge](${BADGE_URL})"
+          README_FILE: "README.md"
         run: |
-          README_FILE="README.md"
           if [ ! -f "$README_FILE" ]; then
-            echo "$README_FILE not found, creating one."
-            echo -e "$BADGE_MARKDOWN\n" > "$README_FILE"
+            echo "$BADGE_MARKDOWN" > "$README_FILE"
             git add "$README_FILE"
-            git commit -m "Add README with visitor badge"
+            git commit -m "Add README with visitor badge" || echo "commit failed or nothing to commit"
             git push
             exit 0
           fi
 
-          # Check if badge already present
           if grep -Fq "$BADGE_URL" "$README_FILE"; then
-            echo "Visitor badge already present in $README_FILE. Nothing to do."
+            echo "Badge already present. Nothing to do."
             exit 0
           fi
 
-          # Prepend badge to README (you can change to append if you prefer)
-          echo "Adding visitor badge to $README_FILE"
-          tmpfile=$(mktemp)
-          echo -e "$BADGE_MARKDOWN\n" > "$tmpfile"
-          cat "$README_FILE" >> "$tmpfile"
-          mv "$tmpfile" "$README_FILE"
+          tmp=$(mktemp)
+          echo -e "$BADGE_MARKDOWN\n" > "$tmp"
+          cat "$README_FILE" >> "$tmp"
+          mv "$tmp" "$README_FILE"
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "$README_FILE"
-          git commit -m "Add visitor-badge-reloaded badge to README"
+          git commit -m "Add visitor-badge-reloaded badge to README" || echo "nothing to commit"
           git push
