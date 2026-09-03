@@ -1,3 +1,5 @@
+![Visitor Badge](${BADGE_URL})
+
 ---
 
 ## ⚙️ Tech Stack  
