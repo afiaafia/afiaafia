@@ -1,4 +1,7 @@
-![Visitor Badge](${BADGE_URL})
+![Visitor Badge](https://visitor-badge-reloaded.vercel.app/badge?page_id=YOUR_USERNAME&color=0e75b6&style=for-the-badge&logo=github)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=9A1DFF&width=600&lines=Learning+Full+Stack+Web+Development;Exploring+React+%26+Modern+Web+Technologies;Interested+in+AI%2FML)](https://git.io/typing-svg)
+
 
 ---
 
