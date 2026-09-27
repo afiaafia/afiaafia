@@ -41,6 +41,7 @@ into clean and functional web experiences.
 ## 📂 Projects
 
 - [B14-A6-Fit-Log](https://github.com/afiaafia/b14-a6-fit-log)
+- [Dev Stack Builder V2](https://github.com/afiaafia/dev-stack-builder-v2)
 - [restaurant-menu-a](https://github.com/afiaafia/restaurant-menu-a)
 
 ---
