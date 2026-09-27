@@ -40,7 +40,7 @@ into clean and functional web experiences.
 
 ## 📂 Projects
 
-- [B14A01-DevConf-2026](https://github.com/afiaafia/B14A01-DevConf-2026)  
+- [B14-A6-Fit-Log](https://github.com/afiaafia/b14-a6-fit-log)
 - [restaurant-menu-a](https://github.com/afiaafia/restaurant-menu-a)
 
 ---
