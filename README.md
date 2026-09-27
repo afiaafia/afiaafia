@@ -2,6 +2,18 @@
   <img src="banner.jpg" alt="Afia Mubassira Banner" width="900"/>
 </p>
 
+
+<p align="center">
+  <a href="https://readme-typing-svg.demolab.com/">
+    <img
+      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=Learning+to+build%2C+building+to+understand.;Growing+through+every+project%2C+bug%2C+and+breakthrough.;Exploring+Full+Stack+Development+one+layer+at+a+time.;Working+Toward+AI%2FML+%26+AI+Engineering"
+      alt="Typing animation"
+    />
+  </a>
+</p>
+
+
+
 ## Hi, I'm Afia Mubassira 👋
 
 🇧🇩 CSE Student • Learning Web Development
@@ -9,12 +21,12 @@
 I learn by building, experimenting, and turning ideas
 into clean and functional web experiences.
 
-**Tech:** HTML • CSS • JavaScript • TypeScript • React • Next.js  
+**Tech:** HTML • CSS • JavaScript • TypeScript • React • Next.js
 **Exploring:** Backend • APIs • Full-Stack Development
 
 ---
 
-## ⚙️ Tech Stack  
+## ⚙️ Tech Stack
 
 ### 🖥️ Languages
 <p align="left">
@@ -76,7 +88,7 @@ into clean and functional web experiences.
 </div>
 
 
-<!-- 📊 Profile Views Counter --> 
+<!-- 📊 Profile Views Counter -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=afiaafia&style=flat-square&color=blue" alt="Profile views counter"/>
 </p>
