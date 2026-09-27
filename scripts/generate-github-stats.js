@@ -1,0 +1,94 @@
+const fs = require('fs');
+const path = require('path');
+
+const outputPath = path.join(__dirname, '..', 'assets', 'github-stats.svg');
+
+const svg = `
+<svg
+  width="1000"
+  height="420"
+  viewBox="0 0 1000 420"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect
+    width="1000"
+    height="420"
+    rx="20"
+    fill="#0D1117"
+  />
+
+  <rect
+    x="1"
+    y="1"
+    width="998"
+    height="418"
+    rx="19"
+    stroke="#30363D"
+  />
+
+  <text
+    x="50"
+    y="65"
+    fill="#58A6FF"
+    font-family="Arial, sans-serif"
+    font-size="28"
+    font-weight="700"
+  >
+    AFIA / DEVELOPMENT ACTIVITY
+  </text>
+
+  <text
+    x="50"
+    y="100"
+    fill="#8B949E"
+    font-family="Arial, sans-serif"
+    font-size="15"
+  >
+    A snapshot of my journey through code, projects, and continuous learning.
+  </text>
+
+  <line
+    x1="50"
+    y1="125"
+    x2="950"
+    y2="125"
+    stroke="#21262D"
+  />
+
+  <text
+    x="50"
+    y="190"
+    fill="#8B949E"
+    font-family="Arial, sans-serif"
+    font-size="14"
+  >
+    GITHUB ACTIVITY
+  </text>
+
+  <text
+    x="50"
+    y="235"
+    fill="#F0F6FC"
+    font-family="Arial, sans-serif"
+    font-size="38"
+    font-weight="700"
+  >
+    Coming Soon
+  </text>
+
+  <text
+    x="50"
+    y="270"
+    fill="#8B949E"
+    font-family="Arial, sans-serif"
+    font-size="15"
+  >
+    Dynamic GitHub data will appear here.
+  </text>
+</svg>
+`;
+
+fs.writeFileSync(outputPath, svg.trim());
+
+console.log(`GitHub stats SVG generated: ${outputPath}`);
