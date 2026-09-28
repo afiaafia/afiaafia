@@ -58,11 +58,12 @@ into clean and functional web experiences.
 
 ---
 
+---
 ## 📊 GitHub Activity
 
 <p align="center">
   <img
-    src="./assets/github-stats.svg"
+    src="./assets/github-stats.gif"
     alt="GitHub Development Activity"
     width="100%"
   />
