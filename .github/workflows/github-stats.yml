@@ -1,4 +1,4 @@
-name: Update GitHub Activity Dashboard
+const username: Update GitHub Activity Dashboard
 
 on:
   schedule:
