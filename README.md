@@ -69,6 +69,18 @@ into clean and functional web experiences.
 </p>
 
 ---
+## 📊 GitHub Activity
+
+<p align="center">
+  <img
+    src="./assets/github-stats.gif"
+    alt="GitHub Development Activity"
+    width="100%"
+  />
+</p>
+
+---
+
 ## GitHub Streaks:
 ![GitHub Streak](https://streak-stats.demolab.com/?user=afiaafia&theme=tokyonight)
 
