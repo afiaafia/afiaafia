@@ -22,7 +22,6 @@
   />
 
   <!-- Header -->
-
   <text
     x="50"
     y="58"
@@ -53,7 +52,6 @@
   />
 
   <!-- Activity cards -->
-
   <rect
     x="50"
     y="140"
@@ -102,7 +100,7 @@
     font-size="30"
     font-weight="700"
   >
-    505
+    493
   </text>
 
   <text
@@ -123,7 +121,7 @@
     font-size="30"
     font-weight="700"
   >
-    9 days
+    8 days
   </text>
 
   <text
@@ -144,11 +142,10 @@
     font-size="30"
     font-weight="700"
   >
-    9 days
+    8 days
   </text>
 
   <!-- Profile / repository cards -->
-
   <rect
     x="50"
     y="240"
@@ -197,7 +194,7 @@
     font-size="25"
     font-weight="700"
   >
-    18
+    16
   </text>
 
   <text
@@ -243,7 +240,6 @@
   </text>
 
   <!-- Language section -->
-
   <rect
     x="50"
     y="330"
@@ -278,35 +274,32 @@
   
     <text
       x="70"
-      y="330"
+      y="425"
       fill="#C9D1D9"
       font-family="Arial, sans-serif"
       font-size="14"
     >
       CSS
     </text>
-
     <rect
       x="180"
-      y="317"
+      y="412"
       width="360"
       height="10"
       rx="5"
       fill="#21262D"
     />
-
     <rect
       x="180"
-      y="317"
+      y="412"
       width="140.4"
       height="10"
       rx="5"
       fill="#1572B6"
     />
-
     <text
       x="560"
-      y="330"
+      y="425"
       fill="#8B949E"
       font-family="Arial, sans-serif"
       font-size="13"
@@ -316,35 +309,32 @@
   
     <text
       x="70"
-      y="368"
+      y="463"
       fill="#C9D1D9"
       font-family="Arial, sans-serif"
       font-size="14"
     >
       TypeScript
     </text>
-
     <rect
       x="180"
-      y="355"
+      y="450"
       width="360"
       height="10"
       rx="5"
       fill="#21262D"
     />
-
     <rect
       x="180"
-      y="355"
+      y="450"
       width="93.60000000000001"
       height="10"
       rx="5"
       fill="#3178C6"
     />
-
     <text
       x="560"
-      y="368"
+      y="463"
       fill="#8B949E"
       font-family="Arial, sans-serif"
       font-size="13"
@@ -354,35 +344,32 @@
   
     <text
       x="70"
-      y="406"
+      y="501"
       fill="#C9D1D9"
       font-family="Arial, sans-serif"
       font-size="14"
     >
       JavaScript
     </text>
-
     <rect
       x="180"
-      y="393"
+      y="488"
       width="360"
       height="10"
       rx="5"
       fill="#21262D"
     />
-
     <rect
       x="180"
-      y="393"
+      y="488"
       width="72"
       height="10"
       rx="5"
       fill="#F7DF1E"
     />
-
     <text
       x="560"
-      y="406"
+      y="501"
       fill="#8B949E"
       font-family="Arial, sans-serif"
       font-size="13"
@@ -392,35 +379,32 @@
   
     <text
       x="70"
-      y="444"
+      y="539"
       fill="#C9D1D9"
       font-family="Arial, sans-serif"
       font-size="14"
     >
       HTML
     </text>
-
     <rect
       x="180"
-      y="431"
+      y="526"
       width="360"
       height="10"
       rx="5"
       fill="#21262D"
     />
-
     <rect
       x="180"
-      y="431"
+      y="526"
       width="54"
       height="10"
       rx="5"
       fill="#E34F26"
     />
-
     <text
       x="560"
-      y="444"
+      y="539"
       fill="#8B949E"
       font-family="Arial, sans-serif"
       font-size="13"
@@ -430,7 +414,6 @@
   
 
   <!-- Projects -->
-
   <rect
     x="590"
     y="330"
@@ -465,7 +448,7 @@
   
         <text
           x="620"
-          y="330"
+          y="425"
           fill="#F0F6FC"
           font-family="Arial, sans-serif"
           font-size="15"
@@ -476,28 +459,27 @@
 
         <text
           x="620"
-          y="353"
+          y="448"
           fill="#8B949E"
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          CSE student exploring web development, building projects, and learning modern technologies.
+          CSE student exploring web development, bu…
         </text>
 
         <text
           x="620"
-          y="375"
+          y="470"
           fill="#6E7681"
           font-family="Arial, sans-serif"
           font-size="11"
         >
-          ★ 0
-          &nbsp;&nbsp;⑂ 0
+          ★ 0    ⑂ 0
         </text>
       
         <text
           x="620"
-          y="400"
+          y="495"
           fill="#F0F6FC"
           font-family="Arial, sans-serif"
           font-size="15"
@@ -508,28 +490,27 @@
 
         <text
           x="620"
-          y="423"
+          y="518"
           fill="#8B949E"
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          A responsive workout library and fitness tracking app built with Next.js and Tailwind CSS.
+          A responsive workout library and fitness …
         </text>
 
         <text
           x="620"
-          y="445"
+          y="540"
           fill="#6E7681"
           font-family="Arial, sans-serif"
           font-size="11"
         >
-          ★ 0
-          &nbsp;&nbsp;⑂ 0
+          ★ 0    ⑂ 0
         </text>
       
         <text
           x="620"
-          y="470"
+          y="565"
           fill="#F0F6FC"
           font-family="Arial, sans-serif"
           font-size="15"
@@ -540,28 +521,26 @@
 
         <text
           x="620"
-          y="493"
+          y="588"
           fill="#8B949E"
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          A structured, hands-on journey through Artificial Intelligence, Machine Learning, and modern AI Engineering — from core foundations to production-ready AI systems.
+          A structured, hands-on journey through Ar…
         </text>
 
         <text
           x="620"
-          y="515"
+          y="610"
           fill="#6E7681"
           font-family="Arial, sans-serif"
           font-size="11"
         >
-          ★ 0
-          &nbsp;&nbsp;⑂ 0
+          ★ 0    ⑂ 0
         </text>
       
 
   <!-- Footer -->
-
   <line
     x1="50"
     y1="650"

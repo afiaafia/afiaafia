@@ -2,37 +2,11 @@ const fs = require('fs');
 const path = require('path');
 
 const USERNAME = 'afiaafia';
-const API_BASE = 'https://api.github.com';
 const GRAPHQL_API = 'https://api.github.com/graphql';
 
 const outputPath = path.join(__dirname, '..', 'assets', 'github-stats.svg');
 
-async function githubFetch(endpoint) {
-  const token = process.env.PROFILE_STATS_TOKEN;
-
-  const headers = {
-    Accept: 'application/vnd.github+json',
-    'User-Agent': 'afiaafia-github-profile',
-  };
-
-  if (token) {
-    headers.Authorization = `Bearer ${token}`;
-  }
-
-  const response = await fetch(`${API_BASE}${endpoint}`, {
-    headers,
-  });
-
-  if (!response.ok) {
-    throw new Error(
-      `GitHub API error: ${response.status} ${response.statusText}`
-    );
-  }
-
-  return response.json();
-}
-
-async function githubGraphQL(query) {
+async function githubGraphQL(query, variables = {}) {
   const token = process.env.PROFILE_STATS_TOKEN;
 
   if (!token) {
@@ -49,6 +23,7 @@ async function githubGraphQL(query) {
     },
     body: JSON.stringify({
       query,
+      variables,
     }),
   });
 
@@ -74,6 +49,18 @@ function escapeXml(value) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&apos;');
+}
+
+function truncateText(value, maxLength = 42) {
+  const text = String(value || 'GitHub project')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  if (text.length <= maxLength) {
+    return text;
+  }
+
+  return `${text.slice(0, maxLength - 1)}…`;
 }
 
 function languageColor(language) {
@@ -109,7 +96,6 @@ function createBar(language, percentage, y) {
     >
       ${escapeXml(language)}
     </text>
-
     <rect
       x="180"
       y="${y - 13}"
@@ -118,7 +104,6 @@ function createBar(language, percentage, y) {
       rx="5"
       fill="#21262D"
     />
-
     <rect
       x="180"
       y="${y - 13}"
@@ -127,7 +112,6 @@ function createBar(language, percentage, y) {
       rx="5"
       fill="${languageColor(language)}"
     />
-
     <text
       x="560"
       y="${y}"
@@ -141,10 +125,12 @@ function createBar(language, percentage, y) {
 }
 
 function calculateStreaks(days) {
+  const sortedDays = [...days].sort((a, b) => a.date.localeCompare(b.date));
+
   let longestStreak = 0;
   let runningStreak = 0;
 
-  for (const day of days) {
+  for (const day of sortedDays) {
     if (day.contributionCount > 0) {
       runningStreak += 1;
       longestStreak = Math.max(longestStreak, runningStreak);
@@ -155,8 +141,8 @@ function calculateStreaks(days) {
 
   let currentStreak = 0;
 
-  for (let index = days.length - 1; index >= 0; index -= 1) {
-    if (days[index].contributionCount > 0) {
+  for (let index = sortedDays.length - 1; index >= 0; index -= 1) {
+    if (sortedDays[index].contributionCount > 0) {
       currentStreak += 1;
     } else {
       break;
@@ -169,13 +155,50 @@ function calculateStreaks(days) {
   };
 }
 
-async function getContributionData() {
+async function getData() {
   const query = `
     query {
-      user(login: "${USERNAME}") {
+      viewer {
+        name
+        followers {
+          totalCount
+        }
+
+        repositories(
+          first: 100
+          affiliations: [OWNER]
+          privacy: PUBLIC
+          isFork: false
+          isArchived: false
+          orderBy: { field: UPDATED_AT, direction: DESC }
+        ) {
+          totalCount
+
+          nodes {
+            name
+            description
+            stargazerCount
+            forkCount
+            updatedAt
+
+            languages(
+              first: 10
+              orderBy: { field: SIZE, direction: DESC }
+            ) {
+              edges {
+                size
+                node {
+                  name
+                }
+              }
+            }
+          }
+        }
+
         contributionsCollection {
           contributionCalendar {
             totalContributions
+
             weeks {
               contributionDays {
                 date
@@ -190,55 +213,33 @@ async function getContributionData() {
 
   const data = await githubGraphQL(query);
 
-  const calendar = data.user.contributionsCollection.contributionCalendar;
+  const viewer = data.viewer;
+
+  const repos = viewer.repositories.nodes.filter(Boolean);
+
+  const calendar = viewer.contributionsCollection.contributionCalendar;
 
   const days = calendar.weeks.flatMap((week) => week.contributionDays);
 
   const streaks = calculateStreaks(days);
 
-  return {
-    totalContributions: calendar.totalContributions,
-    currentStreak: streaks.currentStreak,
-    longestStreak: streaks.longestStreak,
-  };
-}
-
-async function getData() {
-  const user = await githubFetch(`/users/${USERNAME}`);
-
-  const repos = await githubFetch(
-    `/users/${USERNAME}/repos?per_page=100&sort=updated`
-  );
-
-  const ownRepos = repos.filter((repo) => !repo.fork && !repo.archived);
-
-  const totalStars = ownRepos.reduce(
-    (total, repo) => total + repo.stargazers_count,
+  const totalStars = repos.reduce(
+    (total, repo) => total + repo.stargazerCount,
     0
   );
 
-  const totalForks = ownRepos.reduce(
-    (total, repo) => total + repo.forks_count,
-    0
-  );
+  const totalForks = repos.reduce((total, repo) => total + repo.forkCount, 0);
 
   const languageBytes = {};
 
-  for (const repo of ownRepos) {
-    if (!repo.languages_url) {
-      continue;
-    }
-
-    try {
-      const languages = await githubFetch(
-        `/repos/${USERNAME}/${repo.name}/languages`
-      );
-
-      for (const [language, bytes] of Object.entries(languages)) {
-        languageBytes[language] = (languageBytes[language] || 0) + bytes;
+  for (const repo of repos) {
+    for (const edge of repo.languages?.edges || []) {
+      if (!edge?.node?.name) {
+        continue;
       }
-    } catch (error) {
-      console.warn(`Could not read languages for ${repo.name}:`, error.message);
+
+      languageBytes[edge.node.name] =
+        (languageBytes[edge.node.name] || 0) + edge.size;
     }
   }
 
@@ -259,35 +260,36 @@ async function getData() {
     .sort((a, b) => b.bytes - a.bytes)
     .slice(0, 5);
 
-  const contributionData = await getContributionData();
-
   return {
-    name: user.name || USERNAME,
-    publicRepos: user.public_repos,
-    followers: user.followers,
+    name: viewer.name || USERNAME,
+    publicRepos: viewer.repositories.totalCount,
+    followers: viewer.followers.totalCount,
     totalStars,
     totalForks,
     languages,
-    recentRepos: ownRepos.slice(0, 3),
-    totalContributions: contributionData.totalContributions,
-    currentStreak: contributionData.currentStreak,
-    longestStreak: contributionData.longestStreak,
+    recentRepos: repos.slice(0, 3),
+    totalContributions: calendar.totalContributions,
+    currentStreak: streaks.currentStreak,
+    longestStreak: streaks.longestStreak,
   };
 }
 
 function createSvg(data) {
   const languageBars = data.languages
     .map((language, index) =>
-      createBar(language.name, language.percentage, 330 + index * 38)
+      createBar(language.name, language.percentage, 425 + index * 38)
     )
     .join('');
 
   const projectRows = data.recentRepos
-    .map(
-      (repo, index) => `
+    .map((repo, index) => {
+      const y = 425 + index * 70;
+      const description = truncateText(repo.description);
+
+      return `
         <text
           x="620"
-          y="${330 + index * 70}"
+          y="${y}"
           fill="#F0F6FC"
           font-family="Arial, sans-serif"
           font-size="15"
@@ -298,25 +300,25 @@ function createSvg(data) {
 
         <text
           x="620"
-          y="${353 + index * 70}"
+          y="${y + 23}"
           fill="#8B949E"
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          ${escapeXml(repo.description || 'GitHub project')}
+          ${escapeXml(description)}
         </text>
 
         <text
           x="620"
-          y="${375 + index * 70}"
+          y="${y + 45}"
           fill="#6E7681"
           font-family="Arial, sans-serif"
           font-size="11"
         >
-          ★ ${repo.stargazers_count}    ⑂ ${repo.forks_count}
+          ★ ${repo.stargazerCount}    ⑂ ${repo.forkCount}
         </text>
-      `
-    )
+      `;
+    })
     .join('');
 
   return `
@@ -344,7 +346,6 @@ function createSvg(data) {
   />
 
   <!-- Header -->
-
   <text
     x="50"
     y="58"
@@ -375,7 +376,6 @@ function createSvg(data) {
   />
 
   <!-- Activity cards -->
-
   <rect
     x="50"
     y="140"
@@ -470,7 +470,6 @@ function createSvg(data) {
   </text>
 
   <!-- Profile / repository cards -->
-
   <rect
     x="50"
     y="240"
@@ -565,7 +564,6 @@ function createSvg(data) {
   </text>
 
   <!-- Language section -->
-
   <rect
     x="50"
     y="330"
@@ -600,7 +598,6 @@ function createSvg(data) {
   ${languageBars}
 
   <!-- Projects -->
-
   <rect
     x="590"
     y="330"
@@ -635,7 +632,6 @@ function createSvg(data) {
   ${projectRows}
 
   <!-- Footer -->
-
   <line
     x1="50"
     y1="650"
@@ -675,23 +671,20 @@ async function main() {
     const data = await getData();
 
     console.log(`Contributions: ${data.totalContributions}`);
-
     console.log(`Current streak: ${data.currentStreak} days`);
-
     console.log(`Longest streak: ${data.longestStreak} days`);
+    console.log(`Public repositories: ${data.publicRepos}`);
+    console.log(`Followers: ${data.followers}`);
 
     const svg = createSvg(data);
 
     fs.writeFileSync(outputPath, svg);
 
     console.log('GitHub stats generated successfully.');
-
     console.log(`Output: ${outputPath}`);
   } catch (error) {
     console.error('Failed to generate GitHub stats:');
-
     console.error(error);
-
     process.exit(1);
   }
 }
