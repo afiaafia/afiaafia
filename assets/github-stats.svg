@@ -362,7 +362,7 @@
     <rect
       x="180"
       y="488"
-      width="72"
+      width="75.6"
       height="10"
       rx="5"
       fill="#F7DF1E"
@@ -374,7 +374,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      20%
+      21%
     </text>
   
     <text
@@ -397,7 +397,7 @@
     <rect
       x="180"
       y="526"
-      width="54"
+      width="50.400000000000006"
       height="10"
       rx="5"
       fill="#E34F26"
@@ -409,7 +409,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      15%
+      14%
     </text>
   
 
