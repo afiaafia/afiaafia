@@ -57,6 +57,18 @@ into clean and functional web experiences.
 - [restaurant-menu-a](https://github.com/afiaafia/restaurant-menu-a)
 
 ---
+
+## 📊 GitHub Activity
+
+<p align="center">
+  <img
+    src="./assets/github-stats.svg"
+    alt="GitHub Development Activity"
+    width="100%"
+  />
+</p>
+
+---
 ## GitHub Streaks:
 ![GitHub Streak](https://streak-stats.demolab.com/?user=afiaafia&theme=tokyonight)
 
