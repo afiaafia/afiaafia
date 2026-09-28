@@ -99,6 +99,21 @@ into clean and functional web experiences.
   </p>
 </div>
 
+---
+
+<div align="center">
+
+<img
+  src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&text=Thanks%20for%20Visiting!&fontSize=34&fontColor=ffffff&fontAlignY=55&color=0:6A4C93,100:C08A5D&animation=fadeIn" 
+  width="100%" 
+  alt="Thanks for Visiting" 
+/> 
+ 
+<p> 
+  Thanks for being here — hope you found something worth exploring. 💫  
+</p>
+
+</div>
 
 <!-- 📊 Profile Views Counter -->
 <p align="center">
