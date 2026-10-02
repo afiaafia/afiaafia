@@ -100,7 +100,7 @@
     font-size="30"
     font-weight="700"
   >
-    516
+    523
   </text>
 
   <text
@@ -279,7 +279,7 @@
       font-family="Arial, sans-serif"
       font-size="14"
     >
-      CSS
+      TypeScript
     </text>
     <rect
       x="180"
@@ -292,10 +292,10 @@
     <rect
       x="180"
       y="412"
-      width="129.6"
+      width="144"
       height="10"
       rx="5"
-      fill="#1572B6"
+      fill="#3178C6"
     />
     <text
       x="560"
@@ -304,7 +304,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      36%
+      40%
     </text>
   
     <text
@@ -314,7 +314,7 @@
       font-family="Arial, sans-serif"
       font-size="14"
     >
-      TypeScript
+      CSS
     </text>
     <rect
       x="180"
@@ -327,10 +327,10 @@
     <rect
       x="180"
       y="450"
-      width="111.6"
+      width="115.2"
       height="10"
       rx="5"
-      fill="#3178C6"
+      fill="#1572B6"
     />
     <text
       x="560"
@@ -339,7 +339,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      31%
+      32%
     </text>
   
     <text
@@ -362,7 +362,7 @@
     <rect
       x="180"
       y="488"
-      width="68.4"
+      width="61.2"
       height="10"
       rx="5"
       fill="#F7DF1E"
@@ -374,7 +374,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      19%
+      17%
     </text>
   
     <text
@@ -397,7 +397,7 @@
     <rect
       x="180"
       y="526"
-      width="46.800000000000004"
+      width="43.199999999999996"
       height="10"
       rx="5"
       fill="#E34F26"
@@ -409,7 +409,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      13%
+      12%
     </text>
   
 
