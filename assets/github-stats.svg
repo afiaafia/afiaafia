@@ -100,7 +100,7 @@
     font-size="30"
     font-weight="700"
   >
-    515
+    516
   </text>
 
   <text
@@ -121,7 +121,7 @@
     font-size="30"
     font-weight="700"
   >
-    0 days
+    12 days
   </text>
 
   <text
@@ -142,7 +142,7 @@
     font-size="30"
     font-weight="700"
   >
-    11 days
+    12 days
   </text>
 
   <!-- Profile / repository cards -->
@@ -215,7 +215,7 @@
     font-size="25"
     font-weight="700"
   >
-    30
+    31
   </text>
 
   <text
@@ -292,7 +292,7 @@
     <rect
       x="180"
       y="412"
-      width="133.2"
+      width="129.6"
       height="10"
       rx="5"
       fill="#1572B6"
@@ -304,7 +304,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      37%
+      36%
     </text>
   
     <text
@@ -327,7 +327,7 @@
     <rect
       x="180"
       y="450"
-      width="108"
+      width="111.6"
       height="10"
       rx="5"
       fill="#3178C6"
@@ -339,7 +339,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      30%
+      31%
     </text>
   
     <text
@@ -362,7 +362,7 @@
     <rect
       x="180"
       y="488"
-      width="72"
+      width="68.4"
       height="10"
       rx="5"
       fill="#F7DF1E"
@@ -374,7 +374,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      20%
+      19%
     </text>
   
     <text
