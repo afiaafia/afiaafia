@@ -100,7 +100,7 @@
     font-size="30"
     font-weight="700"
   >
-    545
+    559
   </text>
 
   <text
@@ -327,7 +327,7 @@
     <rect
       x="180"
       y="450"
-      width="108"
+      width="111.6"
       height="10"
       rx="5"
       fill="#1572B6"
@@ -339,7 +339,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      30%
+      31%
     </text>
   
     <text
@@ -362,7 +362,7 @@
     <rect
       x="180"
       y="488"
-      width="46.800000000000004"
+      width="43.199999999999996"
       height="10"
       rx="5"
       fill="#F7DF1E"
@@ -374,7 +374,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      13%
+      12%
     </text>
   
     <text
@@ -397,7 +397,7 @@
     <rect
       x="180"
       y="526"
-      width="32.4"
+      width="28.8"
       height="10"
       rx="5"
       fill="#E34F26"
@@ -409,7 +409,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      9%
+      8%
     </text>
   
 
