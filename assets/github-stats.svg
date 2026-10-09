@@ -100,7 +100,7 @@
     font-size="30"
     font-weight="700"
   >
-    535
+    545
   </text>
 
   <text
@@ -121,7 +121,7 @@
     font-size="30"
     font-weight="700"
   >
-    0 days
+    1 days
   </text>
 
   <text
@@ -194,7 +194,7 @@
     font-size="25"
     font-weight="700"
   >
-    18
+    19
   </text>
 
   <text
@@ -292,7 +292,7 @@
     <rect
       x="180"
       y="412"
-      width="172.79999999999998"
+      width="176.4"
       height="10"
       rx="5"
       fill="#3178C6"
@@ -304,7 +304,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      48%
+      49%
     </text>
   
     <text
@@ -327,7 +327,7 @@
     <rect
       x="180"
       y="450"
-      width="97.2"
+      width="108"
       height="10"
       rx="5"
       fill="#1572B6"
@@ -339,7 +339,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      27%
+      30%
     </text>
   
     <text
@@ -362,7 +362,7 @@
     <rect
       x="180"
       y="488"
-      width="54"
+      width="46.800000000000004"
       height="10"
       rx="5"
       fill="#F7DF1E"
@@ -374,7 +374,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      15%
+      13%
     </text>
   
     <text
@@ -397,7 +397,7 @@
     <rect
       x="180"
       y="526"
-      width="36"
+      width="32.4"
       height="10"
       rx="5"
       fill="#E34F26"
@@ -409,7 +409,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      10%
+      9%
     </text>
   
 
@@ -454,7 +454,7 @@
           font-size="15"
           font-weight="600"
         >
-          afiaafia
+          bazar-dor
         </text>
 
         <text
@@ -464,7 +464,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          CSE student exploring web development, bu…
+          GitHub project
         </text>
 
         <text
@@ -485,7 +485,7 @@
           font-size="15"
           font-weight="600"
         >
-          afia-portfolio
+          afiaafia
         </text>
 
         <text
@@ -495,7 +495,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          A production-grade interactive portfolio …
+          CSE student exploring web development, bu…
         </text>
 
         <text
@@ -516,7 +516,7 @@
           font-size="15"
           font-weight="600"
         >
-          wonderbox
+          afia-portfolio
         </text>
 
         <text
@@ -526,7 +526,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          WonderBox — an internet playground for re…
+          A production-grade interactive portfolio …
         </text>
 
         <text
