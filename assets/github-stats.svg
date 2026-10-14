@@ -100,7 +100,7 @@
     font-size="30"
     font-weight="700"
   >
-    597
+    598
   </text>
 
   <text
@@ -121,7 +121,7 @@
     font-size="30"
     font-weight="700"
   >
-    0 days
+    6 days
   </text>
 
   <text
@@ -292,7 +292,7 @@
     <rect
       x="180"
       y="412"
-      width="165.6"
+      width="187.20000000000002"
       height="10"
       rx="5"
       fill="#3178C6"
@@ -304,7 +304,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      46%
+      52%
     </text>
   
     <text
@@ -327,7 +327,7 @@
     <rect
       x="180"
       y="450"
-      width="129.6"
+      width="115.2"
       height="10"
       rx="5"
       fill="#1572B6"
@@ -339,7 +339,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      36%
+      32%
     </text>
   
     <text
@@ -362,7 +362,7 @@
     <rect
       x="180"
       y="488"
-      width="39.6"
+      width="32.4"
       height="10"
       rx="5"
       fill="#F7DF1E"
@@ -374,7 +374,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      11%
+      9%
     </text>
   
     <text
@@ -397,7 +397,7 @@
     <rect
       x="180"
       y="526"
-      width="25.200000000000003"
+      width="21.599999999999998"
       height="10"
       rx="5"
       fill="#E34F26"
@@ -409,7 +409,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      7%
+      6%
     </text>
   
 
