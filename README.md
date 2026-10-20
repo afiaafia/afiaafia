@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.jpg" alt="Afia Mubassira Banner" width="900"/>
+  <img src="banner.png" alt="Afia Mubassira Banner" width="900"/>
 </p>
 
 
