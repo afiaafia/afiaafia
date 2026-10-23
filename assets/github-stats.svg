@@ -100,7 +100,7 @@
     font-size="30"
     font-weight="700"
   >
-    613
+    618
   </text>
 
   <text
@@ -121,7 +121,7 @@
     font-size="30"
     font-weight="700"
   >
-    0 days
+    1 days
   </text>
 
   <text
@@ -215,7 +215,7 @@
     font-size="25"
     font-weight="700"
   >
-    51
+    50
   </text>
 
   <text
@@ -292,7 +292,7 @@
     <rect
       x="180"
       y="412"
-      width="187.20000000000002"
+      width="183.6"
       height="10"
       rx="5"
       fill="#3178C6"
@@ -304,7 +304,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      52%
+      51%
     </text>
   
     <text
@@ -327,7 +327,7 @@
     <rect
       x="180"
       y="450"
-      width="115.2"
+      width="118.80000000000001"
       height="10"
       rx="5"
       fill="#1572B6"
@@ -339,7 +339,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      32%
+      33%
     </text>
   
     <text
@@ -362,7 +362,7 @@
     <rect
       x="180"
       y="488"
-      width="32.4"
+      width="36"
       height="10"
       rx="5"
       fill="#F7DF1E"
@@ -374,7 +374,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      9%
+      10%
     </text>
   
     <text
@@ -454,7 +454,7 @@
           font-size="15"
           font-weight="600"
         >
-          afiaafia
+          afia-portfolio
         </text>
 
         <text
@@ -464,7 +464,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          CSE student exploring web development, bu…
+          A production-grade interactive portfolio …
         </text>
 
         <text
@@ -485,7 +485,7 @@
           font-size="15"
           font-weight="600"
         >
-          cst-4th-sem-java-notes
+          afiaafia
         </text>
 
         <text
@@ -495,7 +495,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          Complete digital study notes and practica…
+          CSE student exploring web development, bu…
         </text>
 
         <text
@@ -516,7 +516,7 @@
           font-size="15"
           font-weight="600"
         >
-          afia-portfolio
+          cst-4th-sem-java-notes
         </text>
 
         <text
@@ -526,7 +526,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          A production-grade interactive portfolio …
+          Complete digital study notes and practica…
         </text>
 
         <text
