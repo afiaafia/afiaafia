@@ -100,7 +100,7 @@
     font-size="30"
     font-weight="700"
   >
-    639
+    647
   </text>
 
   <text
@@ -121,7 +121,7 @@
     font-size="30"
     font-weight="700"
   >
-    0 days
+    4 days
   </text>
 
   <text
@@ -194,7 +194,7 @@
     font-size="25"
     font-weight="700"
   >
-    20
+    22
   </text>
 
   <text
@@ -215,7 +215,7 @@
     font-size="25"
     font-weight="700"
   >
-    54
+    56
   </text>
 
   <text
@@ -236,7 +236,7 @@
     font-size="25"
     font-weight="700"
   >
-    1 • 0
+    22 • 0
   </text>
 
   <!-- Language section -->
@@ -454,7 +454,7 @@
           font-size="15"
           font-weight="600"
         >
-          afiaafia
+          github-workflow-practice
         </text>
 
         <text
@@ -464,7 +464,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          CSE student exploring web development, bu…
+          A small repository for practicing GitHub …
         </text>
 
         <text
@@ -474,7 +474,7 @@
           font-family="Arial, sans-serif"
           font-size="11"
         >
-          ★ 0    ⑂ 0
+          ★ 1    ⑂ 0
         </text>
       
         <text
@@ -485,7 +485,7 @@
           font-size="15"
           font-weight="600"
         >
-          afia-portfolio
+          developer-playground
         </text>
 
         <text
@@ -495,7 +495,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          A production-grade interactive portfolio …
+          collection of coding experiments, web dev…
         </text>
 
         <text
@@ -516,7 +516,7 @@
           font-size="15"
           font-weight="600"
         >
-          cst-4th-sem-java-notes
+          Simple-Portfolio
         </text>
 
         <text
@@ -526,7 +526,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          Complete digital study notes and practica…
+          GitHub project
         </text>
 
         <text
@@ -536,7 +536,7 @@
           font-family="Arial, sans-serif"
           font-size="11"
         >
-          ★ 0    ⑂ 0
+          ★ 1    ⑂ 0
         </text>
       
 
