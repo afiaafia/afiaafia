@@ -100,7 +100,7 @@
     font-size="30"
     font-weight="700"
   >
-    673
+    674
   </text>
 
   <text
@@ -121,7 +121,7 @@
     font-size="30"
     font-weight="700"
   >
-    0 days
+    5 days
   </text>
 
   <text
@@ -215,7 +215,7 @@
     font-size="25"
     font-weight="700"
   >
-    65
+    69
   </text>
 
   <text
@@ -454,7 +454,7 @@
           font-size="15"
           font-weight="600"
         >
-          afiaafia
+          github-workflow-practice
         </text>
 
         <text
@@ -464,7 +464,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          CSE student exploring web development, bu…
+          A small repository for practicing GitHub …
         </text>
 
         <text
@@ -485,7 +485,7 @@
           font-size="15"
           font-weight="600"
         >
-          github-workflow-practice
+          afiaafia
         </text>
 
         <text
@@ -495,7 +495,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          A small repository for practicing GitHub …
+          CSE student exploring web development, bu…
         </text>
 
         <text
