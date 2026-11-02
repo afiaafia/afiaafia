@@ -100,7 +100,7 @@
     font-size="30"
     font-weight="700"
   >
-    675
+    676
   </text>
 
   <text
@@ -121,7 +121,7 @@
     font-size="30"
     font-weight="700"
   >
-    0 days
+    7 days
   </text>
 
   <text
@@ -215,7 +215,7 @@
     font-size="25"
     font-weight="700"
   >
-    78
+    79
   </text>
 
   <text
@@ -236,7 +236,7 @@
     font-size="25"
     font-weight="700"
   >
-    22 • 0
+    43 • 0
   </text>
 
   <!-- Language section -->
@@ -454,7 +454,7 @@
           font-size="15"
           font-weight="600"
         >
-          afiaafia
+          ai-ml-roadmap
         </text>
 
         <text
@@ -464,7 +464,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          CSE student exploring web development, bu…
+          A structured, hands-on journey through Ar…
         </text>
 
         <text
@@ -474,7 +474,7 @@
           font-family="Arial, sans-serif"
           font-size="11"
         >
-          ★ 1    ⑂ 0
+          ★ 2    ⑂ 0
         </text>
       
         <text
@@ -485,7 +485,7 @@
           font-size="15"
           font-weight="600"
         >
-          github-workflow-practice
+          bpl-dream-11
         </text>
 
         <text
@@ -495,7 +495,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          A small repository for practicing GitHub …
+          A React and TypeScript based fantasy cric…
         </text>
 
         <text
@@ -505,7 +505,7 @@
           font-family="Arial, sans-serif"
           font-size="11"
         >
-          ★ 1    ⑂ 0
+          ★ 2    ⑂ 0
         </text>
       
         <text
@@ -516,7 +516,7 @@
           font-size="15"
           font-weight="600"
         >
-          developer-playground
+          job-tracker
         </text>
 
         <text
@@ -526,7 +526,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          collection of coding experiments, web dev…
+          A responsive job application tracking das…
         </text>
 
         <text
@@ -536,7 +536,7 @@
           font-family="Arial, sans-serif"
           font-size="11"
         >
-          ★ 0    ⑂ 0
+          ★ 2    ⑂ 0
         </text>
       
 
