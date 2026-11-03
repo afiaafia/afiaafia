@@ -12,8 +12,6 @@
   </a>
 </p>
 
-
-
 ## Hi, I'm Afia Mubassira 👋
 
 🇧🇩 CSE Student • Learning Web Development
