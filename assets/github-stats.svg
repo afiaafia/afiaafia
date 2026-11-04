@@ -100,7 +100,7 @@
     font-size="30"
     font-weight="700"
   >
-    723
+    726
   </text>
 
   <text
@@ -121,7 +121,7 @@
     font-size="30"
     font-weight="700"
   >
-    9 days
+    0 days
   </text>
 
   <text
@@ -215,7 +215,7 @@
     font-size="25"
     font-weight="700"
   >
-    82
+    83
   </text>
 
   <text
@@ -327,7 +327,7 @@
     <rect
       x="180"
       y="450"
-      width="97.2"
+      width="100.80000000000001"
       height="10"
       rx="5"
       fill="#1572B6"
@@ -339,7 +339,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      27%
+      28%
     </text>
   
     <text
@@ -454,7 +454,7 @@
           font-size="15"
           font-weight="600"
         >
-          booknook-server
+          booknook-client
         </text>
 
         <text
@@ -464,7 +464,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          Backend API for BookNook, providing book …
+          A modern digital library platform built w…
         </text>
 
         <text
@@ -485,7 +485,7 @@
           font-size="15"
           font-weight="600"
         >
-          booknook-client
+          afiaafia
         </text>
 
         <text
@@ -495,7 +495,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          A modern digital library platform built w…
+          CSE student exploring web development, bu…
         </text>
 
         <text
@@ -505,7 +505,7 @@
           font-family="Arial, sans-serif"
           font-size="11"
         >
-          ★ 1    ⑂ 0
+          ★ 2    ⑂ 0
         </text>
       
         <text
@@ -516,7 +516,7 @@
           font-size="15"
           font-weight="600"
         >
-          afiaafia
+          booknook-server
         </text>
 
         <text
@@ -526,7 +526,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          CSE student exploring web development, bu…
+          Backend API for BookNook, providing book …
         </text>
 
         <text
@@ -536,7 +536,7 @@
           font-family="Arial, sans-serif"
           font-size="11"
         >
-          ★ 2    ⑂ 0
+          ★ 1    ⑂ 0
         </text>
       
 
