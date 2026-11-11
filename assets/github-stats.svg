@@ -215,7 +215,7 @@
     font-size="25"
     font-weight="700"
   >
-    91
+    95
   </text>
 
   <text
@@ -236,7 +236,7 @@
     font-size="25"
     font-weight="700"
   >
-    45 • 0
+    49 • 0
   </text>
 
   <!-- Language section -->
@@ -454,7 +454,7 @@
           font-size="15"
           font-weight="600"
         >
-          afiaafia
+          b14-a6-fit-log
         </text>
 
         <text
@@ -464,7 +464,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          CSE student exploring web development, bu…
+          A responsive workout library and fitness …
         </text>
 
         <text
@@ -474,7 +474,7 @@
           font-family="Arial, sans-serif"
           font-size="11"
         >
-          ★ 2    ⑂ 0
+          ★ 3    ⑂ 0
         </text>
       
         <text
@@ -485,7 +485,7 @@
           font-size="15"
           font-weight="600"
         >
-          github-workflow-practice
+          dev-stack-builder-v2
         </text>
 
         <text
@@ -495,7 +495,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          A small repository for practicing GitHub …
+          A responsive React and TypeScript app for…
         </text>
 
         <text
@@ -505,7 +505,7 @@
           font-family="Arial, sans-serif"
           font-size="11"
         >
-          ★ 2    ⑂ 0
+          ★ 3    ⑂ 0
         </text>
       
         <text
@@ -516,7 +516,7 @@
           font-size="15"
           font-weight="600"
         >
-          hireloop
+          restaurant-menu-a
         </text>
 
         <text
@@ -526,7 +526,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          A full-stack job portal connecting job se…
+          A modern and responsive restaurant websit…
         </text>
 
         <text
@@ -536,7 +536,7 @@
           font-family="Arial, sans-serif"
           font-size="11"
         >
-          ★ 0    ⑂ 0
+          ★ 3    ⑂ 0
         </text>
       
 
