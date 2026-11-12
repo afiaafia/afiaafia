@@ -121,7 +121,7 @@
     font-size="30"
     font-weight="700"
   >
-    2 days
+    0 days
   </text>
 
   <text
@@ -215,7 +215,7 @@
     font-size="25"
     font-weight="700"
   >
-    95
+    94
   </text>
 
   <text
@@ -454,7 +454,7 @@
           font-size="15"
           font-weight="600"
         >
-          b14-a6-fit-log
+          afiaafia
         </text>
 
         <text
@@ -464,7 +464,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          A responsive workout library and fitness …
+          CSE student exploring web development, bu…
         </text>
 
         <text
@@ -474,7 +474,7 @@
           font-family="Arial, sans-serif"
           font-size="11"
         >
-          ★ 3    ⑂ 0
+          ★ 2    ⑂ 0
         </text>
       
         <text
@@ -485,7 +485,7 @@
           font-size="15"
           font-weight="600"
         >
-          dev-stack-builder-v2
+          b14-a6-fit-log
         </text>
 
         <text
@@ -495,7 +495,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          A responsive React and TypeScript app for…
+          A responsive workout library and fitness …
         </text>
 
         <text
@@ -516,7 +516,7 @@
           font-size="15"
           font-weight="600"
         >
-          restaurant-menu-a
+          dev-stack-builder-v2
         </text>
 
         <text
@@ -526,7 +526,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          A modern and responsive restaurant websit…
+          A responsive React and TypeScript app for…
         </text>
 
         <text
