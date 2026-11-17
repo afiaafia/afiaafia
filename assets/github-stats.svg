@@ -215,7 +215,7 @@
     font-size="25"
     font-weight="700"
   >
-    118
+    119
   </text>
 
   <text
@@ -236,7 +236,7 @@
     font-size="25"
     font-weight="700"
   >
-    49 • 0
+    50 • 0
   </text>
 
   <!-- Language section -->
@@ -454,7 +454,7 @@
           font-size="15"
           font-weight="600"
         >
-          afiaafia
+          hireloop
         </text>
 
         <text
@@ -464,7 +464,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          CSE student exploring web development, bu…
+          A full-stack job portal connecting job se…
         </text>
 
         <text
@@ -474,7 +474,7 @@
           font-family="Arial, sans-serif"
           font-size="11"
         >
-          ★ 2    ⑂ 0
+          ★ 1    ⑂ 0
         </text>
       
         <text
@@ -485,7 +485,7 @@
           font-size="15"
           font-weight="600"
         >
-          b14-a6-fit-log
+          afiaafia
         </text>
 
         <text
@@ -495,7 +495,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          A responsive workout library and fitness …
+          CSE student exploring web development, bu…
         </text>
 
         <text
@@ -505,7 +505,7 @@
           font-family="Arial, sans-serif"
           font-size="11"
         >
-          ★ 3    ⑂ 0
+          ★ 2    ⑂ 0
         </text>
       
         <text
@@ -516,7 +516,7 @@
           font-size="15"
           font-weight="600"
         >
-          dev-stack-builder-v2
+          b14-a6-fit-log
         </text>
 
         <text
@@ -526,7 +526,7 @@
           font-family="Arial, sans-serif"
           font-size="12"
         >
-          A responsive React and TypeScript app for…
+          A responsive workout library and fitness …
         </text>
 
         <text
