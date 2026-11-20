@@ -100,7 +100,7 @@
     font-size="30"
     font-weight="700"
   >
-    763
+    765
   </text>
 
   <text
@@ -121,7 +121,7 @@
     font-size="30"
     font-weight="700"
   >
-    0 days
+    1 days
   </text>
 
   <text
@@ -215,7 +215,7 @@
     font-size="25"
     font-weight="700"
   >
-    119
+    120
   </text>
 
   <text
@@ -292,7 +292,7 @@
     <rect
       x="180"
       y="412"
-      width="216"
+      width="223.2"
       height="10"
       rx="5"
       fill="#3178C6"
@@ -304,7 +304,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      60%
+      62%
     </text>
   
     <text
@@ -327,7 +327,7 @@
     <rect
       x="180"
       y="450"
-      width="104.39999999999999"
+      width="97.2"
       height="10"
       rx="5"
       fill="#1572B6"
@@ -339,7 +339,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      29%
+      27%
     </text>
   
     <text
