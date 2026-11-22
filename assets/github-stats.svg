@@ -100,7 +100,7 @@
     font-size="30"
     font-weight="700"
   >
-    805
+    810
   </text>
 
   <text
@@ -121,7 +121,7 @@
     font-size="30"
     font-weight="700"
   >
-    0 days
+    3 days
   </text>
 
   <text
@@ -215,7 +215,7 @@
     font-size="25"
     font-weight="700"
   >
-    123
+    124
   </text>
 
   <text
@@ -327,7 +327,7 @@
     <rect
       x="180"
       y="450"
-      width="72"
+      width="68.4"
       height="10"
       rx="5"
       fill="#1572B6"
@@ -339,7 +339,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      20%
+      19%
     </text>
   
     <text
