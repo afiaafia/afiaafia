@@ -100,7 +100,7 @@
     font-size="30"
     font-weight="700"
   >
-    841
+    845
   </text>
 
   <text
@@ -292,7 +292,7 @@
     <rect
       x="180"
       y="412"
-      width="266.4"
+      width="270"
       height="10"
       rx="5"
       fill="#3178C6"
@@ -304,7 +304,7 @@
       font-family="Arial, sans-serif"
       font-size="13"
     >
-      74%
+      75%
     </text>
   
     <text
